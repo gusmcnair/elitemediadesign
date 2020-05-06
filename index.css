@@ -64,16 +64,24 @@ hr {
 }
 
 .jumbotext {
-    color: black;
+    color: #002f6c;
     font-size: 1.2rem;
     line-height: 1.8rem;
     max-width: 600px;
     margin-left: 40%;
     margin-right: 20px;
-    text-shadow: 2px 2px 3px black;
     text-align: center;
-    color: white;
-    background: rgb(0,47,108,.7)
+    background: #F0AD4E
+}
+
+.insta {
+    background: #F0AD4E
+}
+
+.insta h2 {
+    color: #002f6c;
+    padding-top: 30px;
+    margin-top: 0px;
 }
 
 .ourvision {
@@ -102,7 +110,7 @@ hr {
 
 .services {
     background: #002f6c;
-    color: white;
+    color: #F0AD4E;
     padding: 30px;
 }
 
@@ -166,7 +174,7 @@ h2.contact {
     background: #002f6c;
     padding: 30px;
     text-align: center;
-    color: white;
+    color: #F0AD4E;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -184,6 +192,43 @@ h2.contact {
 
 .show-menu {
     display: block;
+}
+
+footer a {
+    color: #F0AD4E;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+article.posts {
+    padding: 15px;
+}
+
+.error {
+    text-align: center;
+}
+
+.posts img {
+    max-width: 200px;
+    margin: 15px;
+    border: 1px solid white;
+}
+
+.insta p {
+    text-align: center;
+}
+
+.insta p a {
+    color: #002f6c;
+    text-decoration: none;
+}
+
+.insta p a:hover {
+    color: #002f6c;
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 700px){
