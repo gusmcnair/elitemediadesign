@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+}
+
+ul.nav-text {
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+
+
+hr {
+    width: 75%;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding-top: 200px;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url("https://image.freepik.com/free-photo/pen-computer-keyboard-wooden-desk-background_70287-2979.jpg");
+
+}
+
+.jumbotext {
+    color: black;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    max-width: 600px;
+    margin-left: 40%;
+    margin-right: 20px;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0,.2)
+}
+
+.ourvision {
+    padding: 20px;
+}
+
+.mission {
+    margin: 20px;
+    max-width: 600px;
+    line-height: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;    
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.services {
+    background: #002f6c;
+    color: white;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #002f6c;
+    padding-top: 30px;
+}
+
+.icon {
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+
+
+input, textarea, label {
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 5px;
+    width: 70%;
+}
+
+label {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #002f6c;
+    font-weight: bold;
+}
+
+form {
+    padding: 20px;
+}
+
+#submit {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background: #002f6c;
+    color: white;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+h2.contact {
+    color: #002f6c;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.contact-info {
+    background: #002f6c;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
